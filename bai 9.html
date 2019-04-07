@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let a, b, c;
+        a = parseFloat(prompt("Nhap a: "));
+        b = parseFloat(prompt("Nhap b: "));
+        c = parseFloat(prompt("Nhap b: "));
+        if (a<0 || b<0 || c<0) {
+            alert('Day khong phai 3 canh cua tam giac');
+        } else if (a+b>c || a+c>b || b+a>c || b+c>a || c+a>b||c+b>a){
+            document.write('Day la 3 canh cua tam giac');
+        }
+    </script>
+</body>
+</html>
